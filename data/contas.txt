@@ -1,0 +1,11 @@
+Para incluir uma nova conta basta seguir o padrao apresentado na lista abaixo, o programa retira os dados quando inicializado.
+
+usuario = "admin";
+senha_cripto = "adm";
+
+usuario = "Faruk";
+senha_cripto = "F1h";
+
+usuario = "Douglas";
+senha_cripto = "ajgdkh";
+

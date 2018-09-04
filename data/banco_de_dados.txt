@@ -1,0 +1,32 @@
+# Esse eh o banco de dados do UTKeys. 
+# Nele estao os dados de todas as salas e usuarios do programa. 
+# Se estiver firme de que conhece o padrao utilizado abaixo pode alterar manualmente.
+# Se nao altere via software (Caso seja possivel)
+
+# Alguns dados foram criptografados.
+
+# Dados a fornecer Servidor -> Cliente
+
+salas = 
+[N001]
+[N002]
+[N003]
+[N101]
+[N102]
+[N104]
+[EK001]
+[EK102]
+;
+categorias = 
+[Alunos]
+[Professores]
+[Servidor]
+;
+
+# Dados sobre os usuarios
+#[[*nome*][*cracha*][*categoria*][*salas vinculadas*][*salas autorizadas*]]
+
+usuarios =
+[ [Faruk Hammoud] [Faruk Hammoud] [Aluno] [] [[N001][N002][N003][N101][N102][N104][EK001][EK102]] ]
+[ [Raul Erthal] [Raul Erthal] [Professor] [[N001][N002][N003][N101][N102][N104][EK001][EK102]] [[N001][N002][N003][N101][N102][N104][EK001][EK102]] ]
+;

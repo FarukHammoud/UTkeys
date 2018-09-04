@@ -1,0 +1,6 @@
+Favor nao alterar esses dados manualmente, eles estao criptografados. Altere via software.
+acess_key = "A2XS5CD5Z3";
+versao = "0.3";
+ip = "127.0.0.1";
+porta = "12345";
+Alterado via software em 1/4/2017.
